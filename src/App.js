@@ -1,0 +1,51 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+
+import Content from './Content';
+import Header from './Header';
+import './App.css';
+import Footer from './Footer';
+import TabbedMenuOverview from './TabbedMenuOverview';
+import BruleePopup from './BruleePopup';
+import HeroSection from './HeroSection';
+import Display from './Display';
+
+const HomePage = () => (
+  <>
+    <Content />
+    <HeroSection />
+    <Display></Display>
+  </>
+);
+
+const MenuPage = () => (
+  <>
+    <TabbedMenuOverview />
+  </>
+);
+
+const AppRoutes = () => {
+  const location = useLocation();
+
+  return (
+    <div className="App">
+      {location.pathname === '/' && <BruleePopup />}
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu" element={<MenuPage />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <AppRoutes />
+    </Router>
+  );
+}
+
+export default App;

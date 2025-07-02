@@ -1,0 +1,149 @@
+.content-section {
+    position: relative;
+    display: flex;
+    font-family: brooksville;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+    
+    object-position: center center;
+    z-index: -1;
+    /* opacity: 0.9; */
+    filter:  blur(0.5px) brightness(70%) !important;
+  }
+  
+  .verticalBox {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    border-radius: 16px;
+    /* padding: 1rem; */
+    max-width: 600px;
+    width: 100%;
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); */
+    text-align: left;
+  }
+  
+  .verticalBox .logo-image {
+    width: 300px;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .verticalBox .t1 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .verticalBox h2{
+    color: white;
+    font-size: 2rem;
+  }
+  
+  
+  .verticalBox p {
+    line-height: 1.6;
+    color: #ddd;
+
+  }
+  
+  .social-follow {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .social-follow p {
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-follow a {
+    display: inline-block;
+    color: #E1306C;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-follow a:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .t1 {
+      font-size: 2rem;
+    }
+
+    .content-section {
+        position: relative;
+        display: flex;
+        font-family: brooksville;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        overflow: hidden;
+      }
+
+    .background-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80vh;
+        width: 100vw;
+        object-fit:cover;
+        
+        object-position: center center;
+        z-index: -1;
+        /* opacity: 0.9; */
+        filter:  blur(0.5px) brightness(75%) !important;
+      }
+  
+    .verticalBox .logo-image {
+      
+      width: 320px;
+      align-items: right;
+    }
+    .verticalBox {
+        width: 75%;
+        margin-top: -30px;
+
+      }
+    .verticalBox h2{
+      font-size: 1rem;
+    }
+    .verticalBox h3{
+        font-size: 0.5rem;
+    }
+    .verticalBox h1{
+        font-size: 1.2rem;
+      }
+    .social-follow {
+        text-align: center;
+        margin-top: 1rem;
+        margin-top: 100px;
+      }
+    .verticalBox p {
+      font-size: 0.9rem;
+    }
+  }

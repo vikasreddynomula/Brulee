@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+  }
+  
+  .logo-image {
+
+    width: 70px;
+    margin: 0.8rem ;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .sections {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .section {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'sans-serif';
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .section:hover {
+    background-color: white;
+    color: #1e3d58;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 864px) {
+    .header {
+      flex-direction: row;
+    }
+  
+    .sections {
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .section {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .mobile-fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.197);
+    backdrop-filter: blur(5px);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .menu-logo {
+    width: 100px;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .menu-links .section {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .menu-links .section:hover {
+    transform: scale(1.05);
+    color: #FFD700;
+  }
+  
+  .close-icon {
+    position: absolute;
+    float: right;
+    top: 4px;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

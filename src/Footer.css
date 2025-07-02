@@ -1,0 +1,83 @@
+.footer {
+    background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+    padding: 3rem 2rem;
+    font-family: brooksville;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #EAB54F;
+  }
+  
+  .footer h3, .footer h4 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  .hours-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: brooksville;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .hours-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .hours-header {
+    align-items: center;
+    gap: 5px;
+    color: #fcd34d;
+    margin-bottom: 12px;
+  }
+  
+  .hours-list p {
+    margin: 5px 0 !important;
+    color: #ddd;
+    font-size: 0.95rem;
+  }
+  
+  .closed {
+    color: #f87171;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  .footer p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+  }
+  
+  .map-container {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .map-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(255, 215, 0, 0.4);
+  }
+  
+
+  .footer-bottom {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #bbb;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+  }

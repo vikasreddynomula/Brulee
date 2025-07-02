@@ -1,0 +1,13 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 768px) {
+    .card-wrapper {
+      flex-direction: column;
+    }
+  }
+  
