@@ -1,5 +1,5 @@
 import React, {useState } from 'react';
-import logo from './images/LOGO_BRULEE4.png';
+
 import './BruleePopup.css';
 
 const BruleePopup = () => {
@@ -12,7 +12,7 @@ const BruleePopup = () => {
     <div className="popup-overlay">
       <div className="popup-content">
         <button className="popup-close" onClick={() => setShowModal(false)}>×</button>
-        <img src={logo} alt="Brulee Logo" className="logo-image" />
+        <img src="/images/LOGO_BRULEE4.png" alt="Brulee Logo" className="logo-image" />
         <h3 className="popup-subtitle">Meaning: “To Burn”</h3>
         <p className="popup-phonetic">/broo-LAY/ noun</p>
         <p className="popup-description">

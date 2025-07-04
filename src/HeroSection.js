@@ -1,5 +1,4 @@
 import './HeroSection.css';
-import heroImage from './images/IMG_8137.jpg';
 
 const HeroSection = () => {
   
@@ -19,7 +18,7 @@ const HeroSection = () => {
       </div>
 
       <div className="hero-image-container">
-        <img src={heroImage} alt="Breakfast Dish" className="hero-image" loading="lazy"/>
+        <img src={"/images/IMG_8137.jpg"} alt="Breakfast Dish" className="hero-image" loading="lazy"/>
       </div>
     </div>
   );

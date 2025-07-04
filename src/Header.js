@@ -1,5 +1,4 @@
 import './Header.css';
-import logo from './images/LOGO_BRULEE4.png';
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -34,7 +33,7 @@ function Header() {
 
   return (
     <div className="header">
-       <a href="/"><img src={logo} alt="Brulee Logo" className="logo-image" style={{ width: "70px" }} /> </a>
+       <a href="/"><img src={"/images/LOGO_BRULEE4.png"} alt="Brulee Logo" className="logo-image" style={{ width: "70px" }} /> </a>
 
       {isMobile ? (
         <>
