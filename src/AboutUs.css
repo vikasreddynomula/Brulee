@@ -1,0 +1,73 @@
+.about-container {
+    background-color: #f2dca8;
+    padding: 60px 20px;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: 'Brooksville';
+  }
+  
+  section {
+    background: #151512;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 24px rgba(46, 43, 43, 0.869);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.15);
+  }
+  
+  .heading {
+    background: linear-gradient(to right, #ffcd57, #ffcd57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .subheading {
+    background: linear-gradient(to right, #ffcd57, #ffcd57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .description, 
+  .chef-text p {
+    line-height: 1.7;
+    color: #e0e0e0;
+    font-size: 1.05rem;
+  }
+  
+  .mission-quote {
+    
+    font-style: italic;
+    border-left: 4px solid white;
+    padding: 14px;
+    color: #ddd;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .chef-name {
+    color: #ffcd57;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 40px 15px;
+    }
+  }
+  

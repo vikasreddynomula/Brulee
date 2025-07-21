@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
+import AboutUs from './AboutUs';
 import Content from './Content';
 import Header from './Header';
 import './App.css';
@@ -34,6 +35,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
+        <Route path='/aboutUs' element={<AboutUs/>} />
       </Routes>
       <Footer />
     </div>

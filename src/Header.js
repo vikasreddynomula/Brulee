@@ -42,7 +42,7 @@ function Header() {
             <div className="mobile-fullscreen-menu">
               <div className="close-icon" onClick={() => setMenuOpen(false)}>&times;</div>
               <div className="menu-links">
-              <button className="section" onClick={() => handleNavigation('hero')}>About Us</button>
+                <a className="section" href="/aboutUs">aboutUs</a>
                 <a className="section" href="/menu">Menu</a>
                 <button className="section" onClick={() => handleNavigation('hours')}>Open Hours</button>
                 <button className="section" onClick={() => handleNavigation('catering')}>Catering</button>
@@ -55,7 +55,7 @@ function Header() {
         </>
       ) : (
         <div className="sections desktop">
-          <button className="section" style={{border:"none"}}onClick={() => handleNavigation('hero')}>About Us</button>
+          <Link className="section" to="/aboutUs">About Us</Link>
           <Link className="section" to="/menu">Menu</Link>
           <a className="section" href="#hours">Open Hours</a>
           <a className="section" href="#catering">Catering</a>

@@ -78,7 +78,7 @@ const TabbedMenuOverview = () => {
       <div className="overview-items">
         {filteredItems.map(item => (
           <div key={item.id} className="overview-text">
-            <h3>{item.name} <span className="overview-price">{item.price}</span></h3>
+            <h3>{item.name} </h3>
             <p>{item.description}</p>
             <div className="tag-row">
               {renderTags(item.dishType)}
