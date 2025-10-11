@@ -28,10 +28,13 @@ const Footer = () => (
           <h4 style={{textAlign:"center"}}>Hours of Operation</h4>
         </div>
         <div className="hours-list">
-          <p>Mon – Tue: 7AM – 3PM</p>
+          <p>Mon: 8AM – 4PM</p>
+          <p>Tue: 8AM – 4PM</p>
           <p>Wed: <span className="closed">Closed</span></p>
-          <p>Thu – Fri: 7AM – 3PM</p>
-          <p>Sat – Sun: 8AM – 4PM</p>
+          <p>Thu: 8AM – 4PM</p>
+          <p>Fri: 8AM – 4PM</p>
+          <p>Sat: 8AM – 4PM</p>
+          <p>Sun: 8AM – 4PM</p>
         </div>
       </div>
     </div>
