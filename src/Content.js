@@ -7,7 +7,6 @@ const Content = () => (
   <div className="content-section" id="content-section" >
     <div className="verticalBox">
     <img src={"/images/DSC04844.jpg"} alt="background" className="background-img" />
-    <h1 className="t1" style={{textAlign:"center",color:"white"}}>Coming Soon!</h1>
     <img src={"/images/LOGO_BRULEE4.png"} alt="Brulee Logo" className="logo-image" style={{alignItems:"right"}}/>
     
 <div className="social-follow">

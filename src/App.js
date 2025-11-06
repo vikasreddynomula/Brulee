@@ -10,6 +10,8 @@ import TabbedMenuOverview from './TabbedMenuOverview';
 import BruleePopup from './BruleePopup';
 import HeroSection from './HeroSection';
 import Display from './Display';
+import Reservations from './Reservations';
+import PricedMenu from './PricedMenu';
 
 const HomePage = () => (
   <>
@@ -36,6 +38,8 @@ const AppRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path='/aboutUs' element={<AboutUs/>} />
+        <Route path='/reserve' element={<Reservations/>} />
+        <Route path='/fullMenu' element={<PricedMenu/>} />
       </Routes>
       <Footer />
     </div>

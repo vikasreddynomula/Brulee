@@ -44,6 +44,7 @@ function Header() {
               <div className="menu-links">
                 <a className="section" href="/aboutUs">aboutUs</a>
                 <a className="section" href="/menu">Menu</a>
+                <a className="section" href="/reserve">Reservations</a>
                 <button className="section" onClick={() => handleNavigation('hours')}>Open Hours</button>
                 <button className="section" onClick={() => handleNavigation('catering')}>Catering</button>
                 <button className="section" onClick={() => handleNavigation('privateevents')}>Private Events</button>
@@ -57,6 +58,7 @@ function Header() {
         <div className="sections desktop">
           <Link className="section" to="/aboutUs">About Us</Link>
           <Link className="section" to="/menu">Menu</Link>
+          <Link className="section" to="/reserve">Reservations</Link>
           <a className="section" href="#hours">Open Hours</a>
           <a className="section" href="#catering">Catering</a>
           <a className="section" href="#privateevents">Private Events</a>
