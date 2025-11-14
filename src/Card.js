@@ -10,6 +10,7 @@ const Card = ({ image, menuLink}) => {
       ></div>
       <div className="overlay">
         <a href={menuLink} className="location-btn">VIEW MENU</a>
+        <a href={"/reserve"} className="location-btn">RESERVE NOW</a>
       </div>
     </div>
   );

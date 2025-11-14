@@ -26,8 +26,8 @@
   padding: 20px;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content:space-evenly;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -51,7 +51,8 @@
   font-size: 0.9rem;
   color: white;
   text-decoration: none;
-  margin-top: 140px;
+  margin-top: 200px;
+  height: fit-content;
   width: fit-content;
   transition: background 0.3s;
 }
