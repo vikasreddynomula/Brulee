@@ -1,16 +1,7 @@
 [
+
   {
     "id": 1,
-    "name": "Crab Brûlée Dip",
-    "description": "Lump crab meat mixed with 5 cheese blends. Served with Garlic parmesan baguette",
-    "price": "$18",
-    "image": "./images/AvocadoCroast.jpg",
-    "category": "Quick Fix",
-    "dishType": "Brulee Special",
-    "addOn":""
-  },
-  {
-    "id": 2,
     "name": "Avocado Croast",
     "description": "Toast croissant, calabrian chili, shaved red onion, sun-dried tomato, everything bagel seasoning, arugula, grated parmesan.",
     "price": "$17",
@@ -20,7 +11,7 @@
     "addOn":"Add smoked salmon $8  | Add Egg $3"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Açaí Bowl",
     "description": "Honey walnut granola, bananas, strawberries, blueberries, toasted coconut flakes, wildflower honey",
     "price": "$14",
@@ -30,7 +21,7 @@
     "addOn":""
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Banana Split Greek Yogurt Parfait",
     "description": "Plain Greek yogurt, mixed berries, brûlée bananas, honey walnut granola, wildflower honey",
     "price": "$13",
@@ -40,7 +31,7 @@
     "addOn":""
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Crispy Brussels Sprouts",
     "description": "Flash-fried Brussels sprouts, lemon crema, wildflower honey",
     "price": "$11",
@@ -50,7 +41,7 @@
     "addOn":""
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Chef’s Seasonal Fruit Plate",
     "description": "A curated selection of the freshest seasonal fruits",
     "price": "$10",
@@ -60,7 +51,7 @@
     "addOn":""
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Kale Caesar Salad",
     "description": "Shaved Parmesan, house-made brioche croutons, lime, creamy caesar dressing.",
     "price": "$15",
@@ -70,7 +61,7 @@
     "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Seafood & Chicken Gumbo",
     "description": "Shrimp, chicken sausage, Cajun spices, jasmine rice (Seasonal)",
     "price": "$25",
@@ -80,7 +71,7 @@
     "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Strawberry & Apple Salad",
     "description": "Mixed greens, arugula, blue cheese, gala apples, strawberries, pickled red onion, cucumber, cherry tomatoes, candied walnuts, dried cranberries, strawberry balsamic vinaigrette",
     "price": "$19",
@@ -90,17 +81,17 @@
     "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Avocado Turkey Club",
     "description": "Ciabatta, oven-roasted turkey, thick-cut bacon, Swiss cheese, arugula, sun-dried tomato, avocado, chipotle aioli, mustard, B&B pickles",
     "price": "$22",
-    "image": null,
+    "image": "./images/brisketgrilledcheese.jpeg",
     "category": "Handhelds",
     "dishType": "NV",
     "addOn":""
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "House Burger",
     "description": "Chipotle aioli, cheddar, butter lettuce, heirloom tomato, red onion marmalade, B&B pickles.",
     "price": "$21",
@@ -110,7 +101,7 @@
     "addOn":"Add bacon $4"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Brisket Grilled Cheese",
     "description": "Smoked brisket, toasted sourdough, cheddar, garlic aioli",
     "price": "$22",
@@ -120,7 +111,7 @@
     "addOn":""
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Everything Vegan Burger",
     "description": "Toasted potato bun, garlic aioli, butter lettuce, tomato, avocado spread, caramelized onion, provolone cheese",
     "price": "$23",
@@ -130,7 +121,7 @@
     "addOn":""
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Crème Brûlée French Toast",
     "description": "Vanilla bean soaked brioche, brûléed sugar crust, mixed berries (Half order available)",
     "price": "$19",
@@ -140,9 +131,9 @@
     "addOn":""
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Lobster & Sweet Potato Waffle",
-    "description": "Cajun fried lobster tails, salted caramel praline sauce, vanilla cream",
+    "description": "Cajun fried lobster tails, salted caramel sauce, vanilla cream",
     "price": "MP",
     "image": null,
     "category": "Main Entrées",
@@ -150,7 +141,7 @@
     "addOn":""
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Chicken & Waffles",
     "description": "Belgian waffle, 3 fried chicken wings, vanilla cream",
     "price": "$22",
@@ -160,7 +151,7 @@
     "addOn":""
   },
   {
-    "id": 17,
+    "id": 14,
     "name": "Creole Shrimp & Grits",
     "description": "Smoked gouda grits, creole sauce, chicken sausage, cherry tomatoes, green onions",
     "price": "$24",
@@ -170,7 +161,7 @@
     "addOn":""
   },
   {
-    "id": 18,
+    "id": 15,
     "name": "Fried Catfish & Grits",
     "description": "Catfish fillet, smoked gouda grits, cajun crawfish cream sauce",
     "price": "$27",
@@ -180,7 +171,7 @@
     "addOn":""
   },
   {
-    "id": 19,
+    "id": 16,
     "name": "Old Fashioned Pancakes",
     "description": "Powdered sugar, whipped honey butter",
     "price": "$17",
@@ -190,7 +181,7 @@
     "addOn":""
   },
   {
-    "id": 20,
+    "id": 17,
     "name": "The Virgil Special",
     "description": "Choice of 3 chicken wings or fried catfish. Hot honey sauce, candied yams, braised collard greens.",
     "price": "$28",
@@ -200,17 +191,17 @@
     "addOn":"Substitute Fried Lobster Tails: +$30 | Add Shrimp +$10"
   },
   {
-    "id": 21,
+    "id": 18,
     "name": "5 Cheese Mac & Cheese",
     "description": "",
     "price": "$12",
-    "image": "./images/AvocadoCroast.jpg",
+    "image": "./images/biscuit.jpg",
     "category": "Sides",
     "dishType": "V",
     "addOn":""
   },
   {
-    "id": 22,
+    "id": 19,
     "name": "Braised Turkey Collard Greens",
     "description": "",
     "price": "$8",
@@ -220,7 +211,7 @@
     "addOn":""
   },
   {
-    "id": 23,
+    "id": 20,
     "name": "Candied Yams",
     "description": "",
     "price": "$8",
@@ -230,7 +221,7 @@
     "addOn":""
   },
   {
-    "id": 24,
+    "id": 21,
     "name": "Breakfast Potatoes",
     "description": "",
     "price": "$6",
@@ -240,7 +231,7 @@
     "addOn":""
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "French Fries",
     "description": "",
     "price": "$6",
@@ -250,7 +241,7 @@
     "addOn":"make it truffle +$5"
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "Sweet Potato Fries",
     "description": "",
     "price": "$6",
@@ -260,7 +251,7 @@
     "addOn":""
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "Chicken Sausage",
     "description": "",
     "price": "$6",
@@ -270,7 +261,7 @@
     "addOn":""
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "Applewood Smoked Bacon",
     "description": "",
     "price": "$6",
@@ -280,7 +271,7 @@
     "addOn":""
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "Veggie Sausage",
     "description": "",
     "price": "$6",
@@ -290,7 +281,7 @@
     "addOn":""
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "Smoked Gouda Grits",
     "description": "",
     "price": "$6",
@@ -300,7 +291,7 @@
     "addOn":""
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "Honey Butter Biscuit",
     "description": "",
     "price": "$4",
@@ -310,7 +301,7 @@
     "addOn":""
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Garden Veggie Omelette",
     "description": "Spinach, cherry tomatoes, bell peppers, onions, cheddar, mushrooms, sliced avocado. Served with breakfast potatoes or grits & a honey butter biscuit",
     "price": "$19",
@@ -320,17 +311,17 @@
     "addOn":""
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "Michigan Ave. Breakfast",
     "description": "Choice of 2 eggs any style, breakfast meat, potatoes or grits. served with honey butter biscuit or whole grain toast",
-    "price": "$18",
+    "price": "$22",
     "image": null,
     "category": "Eggs & Omelets",
     "dishType": "VG",
     "addOn":""
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "Chicken & Biscuits",
     "description": "2 fried chicken biscuits with honey butter",
     "price": "$14",
@@ -340,7 +331,7 @@
     "addOn":""
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "2 Eggs Any Style",
     "description": "",
     "price": "$6",
@@ -350,7 +341,7 @@
     "addOn":""
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "Cup of Gumbo",
     "description": "",
     "price": "$10",
