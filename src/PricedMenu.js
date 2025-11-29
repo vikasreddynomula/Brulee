@@ -7,7 +7,7 @@ const PricedMenu = () => {
   const [activeTab, setActiveTab] = useState();
 
   useEffect(() => {
-    fetch('/menuItems.json')
+    fetch('/pricedMenuItems.json')
       .then(res => res.json())
       .then(data => setMenuItems(data));
   }, []);
