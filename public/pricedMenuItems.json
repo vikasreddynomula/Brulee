@@ -123,7 +123,7 @@
     {
       "id": 13,
       "name": "Brûlée French Toast",
-      "description": "Vanilla bean soaked brioche, caramel, vanilla cream, honey butter, mixed berries (Half order available) $9.00",
+      "description": "Vanilla bean soaked brioche, caramel, vanilla cream, honey butter (Half order available) $9.00",
       "price": "$19",
       "image": "./images/creoleShrimp&grits.jpg",
       "category": "Main Entrées",
@@ -359,5 +359,126 @@
       "category": "Cocktails",
       "dishType": "NV",
       "addOn":""
-    }
+    },
+    {
+      "id": 37,
+      "name": "Croissant Beignets (5)",
+      "description": "Dusted with powdered sugar",
+      "price": "$8.00",
+      "image": null,
+      "category": "Quick Fix",
+      "dishType": "",
+      "addOn":""
+    },
+      {
+        "id": 38,
+        "name": "Hot Chocolate",
+        "description": "Available in small ($6) and large ($12)",
+        "price": "$6.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 39,
+        "name": "Cold Brew",
+        "description": "",
+        "price": "$6.50",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 40,
+        "name": "Saratoga Still Water",
+        "description": "",
+        "price": "$6.50",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 41,
+        "name": "Sparkling Water",
+        "description": "",
+        "price": "$5.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 42,
+        "name": "Grapefruit Juice",
+        "description": "",
+        "price": "$4.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 43,
+        "name": "Cranberry Juice",
+        "description": "",
+        "price": "$4.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 44,
+        "name": "Apple Juice",
+        "description": "",
+        "price": "$5.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 45,
+        "name": "Hot Tea",
+        "description": "",
+        "price": "$3.50",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 46,
+        "name": "Pineapple Juice",
+        "description": "",
+        "price": "$4.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 47,
+        "name": "Lemonade",
+        "description": "",
+        "price": "$5.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      },
+      {
+        "id": 48,
+        "name": "Soft Drinks",
+        "description": "Sprite, Coke, Diet Coke, Ginger Ale",
+        "price": "$5.00",
+        "image": null,
+        "category": "Beverages",
+        "dishType": "",
+        "addOn": ""
+      }
+    
   ]
