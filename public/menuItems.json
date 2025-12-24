@@ -94,7 +94,7 @@
     "id": 10,
     "name": "House Burger",
     "description": "Chipotle aioli, cheddar, butter lettuce, heirloom tomato, red onion marmalade, B&B pickles.",
-    "price": "$21",
+    "price": "$22",
     "image": null,
     "category": "Handhelds",
     "dishType": "V",
@@ -123,7 +123,7 @@
   {
     "id": 13,
     "name": "Brûlée French Toast",
-    "description": "Vanilla bean soaked brioche, caramel, vanilla cream, honey butter (Half order available)",
+    "description": "Vanilla bean soaked brioche, caramel, vanilla cream, honey butter (Half order available) $9.00",
     "price": "$19",
     "image": "./images/creoleShrimp&grits.jpg",
     "category": "Main Entrées",
@@ -144,7 +144,7 @@
     "id": 15,
     "name": "Chicken & Waffles",
     "description": "Belgian waffle, 3 fried chicken wings, vanilla cream",
-    "price": "$22",
+    "price": "$23",
     "image": "./images/chicken&waffles.jpg",
     "category": "Main Entrées",
     "dishType": "NV",
@@ -154,7 +154,7 @@
     "id": 16,
     "name": "Creole Shrimp & Grits",
     "description": "Smoked gouda grits, creole sauce, chicken sausage, cherry tomatoes, green onions",
-    "price": "$24",
+    "price": "$25",
     "image": null,
     "category": "Main Entrées",
     "dishType": "GF",
@@ -352,6 +352,16 @@
   },
   {
     "id": 36,
+    "name": null,
+    "description": "",
+    "price": "",
+    "image": null,
+    "category": "Sides",
+    "dishType": null,
+    "addOn":""
+  },
+  {
+    "id": 37,
     "name": "Croissant Beignets (5)",
     "description": "Dusted with powdered sugar",
     "price": "$8.00",
@@ -361,9 +371,9 @@
     "addOn":""
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Hot Chocolate",
-    "description": "",
+    "description": "Available in small ($6) and large ($12)",
     "price": "$6.00",
     "image": null,
     "category": "Beverages",
@@ -371,7 +381,27 @@
     "addOn": ""
   },
   {
-    "id": 38,
+    "id": 39,
+    "name": "Hot Tea",
+    "description": "",
+    "price": "$3.50",
+    "image": null,
+    "category": "Beverages",
+    "dishType": "",
+    "addOn": ""
+  },
+  {
+    "id": 40,
+    "name": "Coffee",
+    "description": "",
+    "price": "$3.50",
+    "image": null,
+    "category": "Beverages",
+    "dishType": "",
+    "addOn": ""
+  },
+  {
+    "id": 41,
     "name": "Cold Brew",
     "description": "",
     "price": "$6.50",
@@ -381,27 +411,7 @@
     "addOn": ""
   },
   {
-    "id": 39,
-    "name": "Saratoga Still Water",
-    "description": "",
-    "price": "$6.50",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 40,
-    "name": "Sparkling Water",
-    "description": "",
-    "price": "$5.00",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 41,
+    "id": 42,
     "name": "Grapefruit Juice",
     "description": "",
     "price": "$4.00",
@@ -411,7 +421,7 @@
     "addOn": ""
   },
   {
-    "id": 42,
+    "id": 43,
     "name": "Cranberry Juice",
     "description": "",
     "price": "$4.00",
@@ -421,20 +431,10 @@
     "addOn": ""
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "Apple Juice",
     "description": "",
     "price": "$5.00",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 44,
-    "name": "Hot Tea",
-    "description": "",
-    "price": "$3.50",
     "image": null,
     "category": "Beverages",
     "dishType": "",
@@ -452,6 +452,16 @@
   },
   {
     "id": 46,
+    "name": "Orange Juice",
+    "description": "",
+    "price": "$6.00",
+    "image": null,
+    "category": "Beverages",
+    "dishType": "",
+    "addOn": ""
+  },
+  {
+    "id": 47,
     "name": "Lemonade",
     "description": "",
     "price": "$5.00",
@@ -461,7 +471,7 @@
     "addOn": ""
   },
   {
-    "id": 47,
+    "id": 48,
     "name": "Soft Drinks",
     "description": "Sprite, Coke, Diet Coke, Ginger Ale",
     "price": "$5.00",
@@ -471,116 +481,125 @@
     "addOn": ""
   },
   {
-    "id": 48,
-    "name": "Brisket Grilled Cheese Quesadillas",
-    "description": "Braised BBQ sauce, melted cheddar",
-    "price": "$7.00",
-    "image": null,
-    "category": "happy hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
     "id": 49,
-    "name": "Croissant Beignets",
-    "description": "3 deep fried beignets dusted with powdered sugar",
-    "price": "$3.00",
+    "name": "Saratoga Still Water",
+    "description": "",
+    "price": "$6.50",
     "image": null,
-    "category": "happy hour",
+    "category": "Beverages",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 50,
-    "name": "Crispy Chicken Sandwich",
-    "description": "Fried chicken breast on a toasted bun with chipotle aioli, arugula, sundried tomato, red onion marmalade, and B&B pickles",
-    "price": "$12.00",
+    "name": "Sparkling Water",
+    "description": "",
+    "price": "$5.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Beverages",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 51,
-    "name": "Crispy Brussels Sprouts",
-    "description": "Flash-fried Brussels with lemon crema and honey",
-    "price": "$8.00",
+    "name": "Brisket Grilled Cheese Quesadillas",
+    "description": "Braised BBQ sauce, melted cheddar",
+    "price": "$7.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 52,
-    "name": "Truffle Fries",
-    "description": "Parmesan cheese, white truffle oil, garlic aioli",
-    "price": "$5.00",
+    "name": "Croissant Beignets",
+    "description": "3 deep fried beignets dusted with powdered sugar",
+    "price": "$4.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 53,
-    "name": "Chicken & Biscuits",
-    "description": "Fried chicken biscuits brushed with honey butter",
-    "price": "$7.00",
+    "name": "Crispy Chicken Sandwich",
+    "description": "Fried chicken breast on a toasted bun with chipotle aioli, arugula, sundried tomato, red onion marmalade, and B&B pickles",
+    "price": "$12.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 54,
-    "name": "SideCar",
-    "description": "",
-    "price": "$10.00",
+    "name": "Crispy Brussels Sprouts",
+    "description": "Flash-fried Brussels with lemon crema and honey",
+    "price": "$8.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 55,
-    "name": "House Margarita",
-    "description": "",
-    "price": "$10.00",
+    "name": "Truffle Fries",
+    "description": "Parmesan cheese, white truffle oil, garlic aioli",
+    "price": "$5.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 56,
-    "name": "Strawberry Lemon Drop",
-    "description": "",
-    "price": "$10.00",
+    "name": "Chicken & Biscuits",
+    "description": "Fried chicken biscuits brushed with honey butter",
+    "price": "$7.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 57,
-    "name": "House Red & White Wine",
+    "name": "SideCar",
     "description": "",
-    "price": "$8.00",
+    "price": "$10.00",
     "image": null,
-    "category": "happy hour",
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 58,
-    "name": "Orange Juice",
+    "name": "House Margarita",
     "description": "",
-    "price": "$6.00",
+    "price": "$10.00",
     "image": null,
-    "category": "Beverages",
+    "category": "Happy Hour",
+    "dishType": "",
+    "addOn": ""
+  },
+  {
+    "id": 59,
+    "name": "Strawberry Lemon Drop",
+    "description": "",
+    "price": "$10.00",
+    "image": null,
+    "category": "Happy Hour",
+    "dishType": "",
+    "addOn": ""
+  },
+  {
+    "id": 60,
+    "name": "House Red & White Wine",
+    "description": "",
+    "price": "$8.00",
+    "image": null,
+    "category": "Happy Hour",
     "dishType": "",
     "addOn": ""
   }
 
-
-
+  
 ]

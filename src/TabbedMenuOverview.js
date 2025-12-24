@@ -75,6 +75,10 @@ const TabbedMenuOverview = () => {
         </div>
       )}
 
+      {activeTab==="Happy Hour" && (<h2 style={{textAlign:"center",fontStyle:"bold",paddingTop:"20px"}}>Monday - Friday</h2>)}
+      {activeTab==="Happy Hour" && (<h3 style={{textAlign:"center",paddingBottom:"20px"}}>12.30 PM - 3.00 PM</h3>)}
+      {activeTab==="Happy Hour" && (<h3 style={{textAlign:"center",paddingBottom:"20px"}}>Bar Area Only</h3>)}
+
       <div className="overview-items">
         {filteredItems.map(item => (
           <div key={item.id} className="overview-text">
