@@ -47,7 +47,7 @@ function Header() {
                 <a className="section" href="/reserve">Reservations</a>
                 <button className="section" onClick={() => handleNavigation('hours')}>Open Hours</button>
                 <button className="section" onClick={() => handleNavigation('catering')}>Catering</button>
-                <button className="section" onClick={() => handleNavigation('privateevents')}>Private Events</button>
+                <a className="section" href="/privateevents">Private Events</a>
                 <button className="section" onClick={() => handleNavigation('contactus')}>Contact</button>
                 <button className="section" onClick={() => handleNavigation('loyaltymembers')}>Loyalty members</button>
               </div>
@@ -61,7 +61,7 @@ function Header() {
           <Link className="section" to="/reserve">Reservations</Link>
           <a className="section" href="#hours">Open Hours</a>
           <a className="section" href="#catering">Catering</a>
-          <a className="section" href="#privateevents">Private Events</a>
+          <a className="section" href="/privateevents">Private Events</a>
           <a className="section" href="#contactus">Contact</a>
           <a className="section" href="#loyaltymembers">Loyalty members</a>
         </div>

@@ -12,6 +12,7 @@ import HeroSection from './HeroSection';
 import Display from './Display';
 import Reservations from './Reservations';
 import PricedMenu from './PricedMenu';
+import PrivateEvents from'./PrivateEvents';
 
 const HomePage = () => (
   <>
@@ -40,6 +41,7 @@ const AppRoutes = () => {
         <Route path='/aboutUs' element={<AboutUs/>} />
         <Route path='/reserve' element={<Reservations/>} />
         <Route path='/fullMenu' element={<PricedMenu/>} />
+        <Route path='/privateevents' element={<PrivateEvents/>}/>
       </Routes>
       <Footer />
     </div>

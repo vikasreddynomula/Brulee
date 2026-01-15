@@ -1,5 +1,4 @@
 [
-
   {
     "id": 1,
     "name": "Avocado Croast",
@@ -8,7 +7,7 @@
     "image": "./images/AvocadoCroast.jpg",
     "category": "Quick Fix",
     "dishType": "VG",
-    "addOn":"Add smoked salmon $8  | Add Egg $3"
+    "addOn": "Add smoked salmon $8  | Add Egg $3"
   },
   {
     "id": 2,
@@ -18,7 +17,7 @@
     "image": null,
     "category": "Quick Fix",
     "dishType": "VG",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 3,
@@ -28,7 +27,7 @@
     "image": null,
     "category": "Quick Fix",
     "dishType": "VG",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 4,
@@ -38,7 +37,7 @@
     "image": null,
     "category": "Quick Fix",
     "dishType": "VG",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 5,
@@ -48,7 +47,7 @@
     "image": null,
     "category": "Quick Fix",
     "dishType": "VG",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 6,
@@ -58,7 +57,7 @@
     "image": "./images/KaleCaesarSalad.jpg",
     "category": "Soups & Salads",
     "dishType": "VG",
-    "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
+    "addOn": "Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
     "id": 7,
@@ -68,7 +67,7 @@
     "image": null,
     "category": "Soups & Salads",
     "dishType": "NV",
-    "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
+    "addOn": "Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
     "id": 8,
@@ -78,7 +77,7 @@
     "image": null,
     "category": "Soups & Salads",
     "dishType": "VG",
-    "addOn":"Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
+    "addOn": "Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
   },
   {
     "id": 9,
@@ -88,7 +87,7 @@
     "image": "./images/brisketgrilledcheese.jpeg",
     "category": "Handhelds",
     "dishType": "NV",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 10,
@@ -98,7 +97,7 @@
     "image": null,
     "category": "Handhelds",
     "dishType": "V",
-    "addOn":"Add bacon $4"
+    "addOn": "Add bacon $4"
   },
   {
     "id": 11,
@@ -108,7 +107,7 @@
     "image": null,
     "category": "Handhelds",
     "dishType": "V",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 12,
@@ -118,7 +117,7 @@
     "image": "./images/brisketgrilledcheese.jpeg",
     "category": "Handhelds",
     "dishType": "V",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 13,
@@ -128,7 +127,7 @@
     "image": "./images/creoleShrimp&grits.jpg",
     "category": "Main Entrées",
     "dishType": "Brulee Special",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 14,
@@ -138,7 +137,7 @@
     "image": null,
     "category": "Main Entrées",
     "dishType": "NV",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 15,
@@ -148,7 +147,7 @@
     "image": "./images/chicken&waffles.jpg",
     "category": "Main Entrées",
     "dishType": "NV",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 16,
@@ -158,7 +157,7 @@
     "image": null,
     "category": "Main Entrées",
     "dishType": "GF",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 17,
@@ -168,7 +167,7 @@
     "image": null,
     "category": "Main Entrées",
     "dishType": "GF",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 18,
@@ -178,7 +177,7 @@
     "image": null,
     "category": "Main Entrées",
     "dishType": "VG",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 19,
@@ -188,7 +187,7 @@
     "image": null,
     "category": "Main Entrées",
     "dishType": "NV",
-    "addOn":"Substitute Fried Lobster Tails: +$30 | Add Shrimp +$10"
+    "addOn": "Substitute Fried Lobster Tails: +$30 | Add Shrimp +$10"
   },
   {
     "id": 20,
@@ -198,408 +197,548 @@
     "image": "./images/biscuit.jpg",
     "category": "Sides",
     "dishType": "V",
-    "addOn":""
+    "addOn": ""
   },
   {
-    "id": 21,
-    "name": "Braised Turkey Collard Greens",
-    "description": "",
-    "price": "$8",
-    "image": null,
-    "category": "Sides",
-    "dishType": "NV",
-    "addOn":""
-  },
-  {
-    "id": 22,
-    "name": "Candied Yams",
-    "description": "",
-    "price": "$8",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 23,
-    "name": "Breakfast Potatoes",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 24,
-    "name": "French Fries",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":"make it truffle +$5"
-  },
-  {
-    "id": 25,
-    "name": "Sweet Potato Fries",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 26,
-    "name": "Chicken Sausage",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "NV",
-    "addOn":""
-  },
-  {
-    "id": 27,
-    "name": "Applewood Smoked Bacon",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "NV",
-    "addOn":""
-  },
-  {
-    "id": 28,
-    "name": "Veggie Sausage",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 29,
-    "name": "Smoked Gouda Grits",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 30,
-    "name": "Honey Butter Biscuit",
-    "description": "",
-    "price": "$4",
-    "image": null,
-    "category": "Sides",
-    "dishType": "V",
-    "addOn":""
-  },
-  {
-    "id": 31,
-    "name": "Garden Veggie Omelette",
-    "description": "Spinach, cherry tomatoes, bell peppers, onions, cheddar, mushrooms (Served with breakfast potatoes or grits. Served with honey butter biscuit)",
-    "price": "$21",
-    "image": "./images/Eggs.jpg",
-    "category": "Eggs & Omelets",
-    "dishType": "VG",
-    "addOn":""
-  },
-  {
-    "id": 32,
-    "name": "Michigan Ave. Breakfast",
-    "description": "Choice of 2 eggs any style, breakfast meat, potatoes or grits. served with honey butter biscuit or whole grain toast",
-    "price": "$22",
-    "image": null,
-    "category": "Eggs & Omelets",
-    "dishType": "VG",
-    "addOn":""
-  },
-  {
-    "id": 33,
-    "name": "Chicken & Biscuits",
-    "description": "2 fried chicken biscuits with honey butter",
-    "price": "$14",
-    "image": null,
-    "category": "Quick Fix",
-    "dishType": "NV",
-    "addOn":""
-  },
-  {
-    "id": 34,
-    "name": "2 Eggs Any Style",
-    "description": "",
-    "price": "$6",
-    "image": null,
-    "category": "Sides",
-    "dishType": "NV",
-    "addOn":""
-  },
-  {
-    "id": 35,
-    "name": "Cup of Gumbo",
-    "description": "",
-    "price": "$10",
-    "image": null,
-    "category": "Sides",
-    "dishType": "NV",
-    "addOn":""
-  },
+      "id": 21,
+      "name": "Braised Turkey Collard Greens",
+      "description": "",
+      "price": "$8",
+      "image": null,
+      "category": "Sides",
+      "dishType": "NV",
+      "addOn":""
+    },
+    {
+      "id": 22,
+      "name": "Candied Yams",
+      "description": "",
+      "price": "$8",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 23,
+      "name": "Breakfast Potatoes",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 24,
+      "name": "French Fries",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":"make it truffle +$5"
+    },
+    {
+      "id": 25,
+      "name": "Sweet Potato Fries",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 26,
+      "name": "Chicken Sausage",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "NV",
+      "addOn":""
+    },
+    {
+      "id": 27,
+      "name": "Applewood Smoked Bacon",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "NV",
+      "addOn":""
+    },
+    {
+      "id": 28,
+      "name": "Veggie Sausage",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 29,
+      "name": "Smoked Gouda Grits",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 30,
+      "name": "Honey Butter Biscuit",
+      "description": "",
+      "price": "$4",
+      "image": null,
+      "category": "Sides",
+      "dishType": "V",
+      "addOn":""
+    },
+    {
+      "id": 31,
+      "name": "Garden Veggie Omelette",
+      "description": "Spinach, cherry tomatoes, bell peppers, onions, cheddar, mushrooms (Served with breakfast potatoes or grits. Served with honey butter biscuit)",
+      "price": "$21",
+      "image": "./images/Eggs.jpg",
+      "category": "Eggs & Omelets",
+      "dishType": "VG",
+      "addOn":""
+    },
+    {
+      "id": 32,
+      "name": "Michigan Ave. Breakfast",
+      "description": "Choice of 2 eggs any style, breakfast meat, potatoes or grits. served with honey butter biscuit or whole grain toast",
+      "price": "$22",
+      "image": null,
+      "category": "Eggs & Omelets",
+      "dishType": "VG",
+      "addOn":""
+    },
+    {
+      "id": 33,
+      "name": "Chicken & Biscuits",
+      "description": "2 fried chicken biscuits with honey butter",
+      "price": "$14",
+      "image": null,
+      "category": "Quick Fix",
+      "dishType": "NV",
+      "addOn":""
+    },
+    {
+      "id": 34,
+      "name": "2 Eggs Any Style",
+      "description": "",
+      "price": "$6",
+      "image": null,
+      "category": "Sides",
+      "dishType": "NV",
+      "addOn":""
+    },
+    {
+      "id": 35,
+      "name": "Cup of Gumbo",
+      "description": "",
+      "price": "$10",
+      "image": null,
+      "category": "Sides",
+      "dishType": "NV",
+      "addOn":""
+    },
+
   {
     "id": 36,
-    "name": null,
-    "description": "",
-    "price": "",
-    "image": "./images/cocktails.PNG",
-    "category": "Cocktails",
-    "dishType": "NV",
-    "addOn":""
+    "name": "Coachés Reserve",
+    "description": "Old Fashioned–style bourbon cocktail",
+    "price": "$20",
+    "image": null,
+    "category": "Cocktails & Wine",
+    "dishType": "",
+    "addOn": ""
   },
   {
     "id": 37,
-    "name": "Croissant Beignets (5)",
-    "description": "Dusted with powdered sugar",
-    "price": "$8.00",
+    "name": "The Goddess",
+    "description": "Spicy, smoky margarita (Tequila, Mezcal, Hibiscus)",
+    "price": "$18",
     "image": null,
-    "category": "Quick Fix",
+    "category": "Cocktails & Wine",
     "dishType": "",
-    "addOn":""
+    "addOn": ""
   },
   {
     "id": 38,
-    "name": "Hot Chocolate",
-    "description": "Available in small ($6) and large ($12)",
-    "price": "$6.00",
+    "name": "The Jewel",
+    "description": "Classic New Orleans–style Brandy Crusta",
+    "price": "$20",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 39,
-    "name": "Hot Tea",
-    "description": "",
-    "price": "$3.50",
+    "name": "Storms Brewing",
+    "description": "New Orleans–style Hurricane",
+    "price": "$18",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 40,
-    "name": "Coffee",
-    "description": "",
-    "price": "$3.50",
+    "name": "The Imperial",
+    "description": "Old-school Ramos Gin Fizz (Gin, Bergamot, Vanilla, Lemon)",
+    "price": "$18",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 41,
-    "name": "Cold Brew",
-    "description": "",
-    "price": "$6.50",
+    "name": "The Brûlée",
+    "description": "Espresso martini (Vodka, Espresso, Coffee Liqueur)",
+    "price": "$18",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 42,
-    "name": "Grapefruit Juice",
-    "description": "",
-    "price": "$4.00",
+    "name": "The Blossom",
+    "description": "Cherry Lemon Drop Spritz (Alcohol Free)",
+    "price": "$14",
     "image": null,
-    "category": "Beverages",
-    "dishType": "",
+    "category": "Cocktails & Wine",
+    "dishType": "Non-Alcoholic",
     "addOn": ""
   },
   {
     "id": 43,
-    "name": "Cranberry Juice",
+    "name": "Bloody Mary",
     "description": "",
-    "price": "$4.00",
+    "price": "$18",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 44,
-    "name": "Apple Juice",
-    "description": "",
-    "price": "$5.00",
+    "name": "Ever-Lasting Mimosa",
+    "description": "Unlimited mimosas per person (90-minute limit)",
+    "price": "$40",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 45,
-    "name": "Pineapple Juice",
+    "name": "Red & White Wine",
     "description": "",
-    "price": "$4.00",
+    "price": "$14",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 46,
-    "name": "Orange Juice",
+    "name": "Moët & Chandon Imperial Brut (187 mL)",
     "description": "",
-    "price": "$6.00",
+    "price": "$37",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
     "id": 47,
-    "name": "Lemonade",
+    "name": "Mini La Marca Prosecco",
     "description": "",
-    "price": "$5.00",
+    "price": "$14",
     "image": null,
-    "category": "Beverages",
+    "category": "Cocktails & Wine",
     "dishType": "",
     "addOn": ""
   },
   {
-    "id": 48,
-    "name": "Soft Drinks",
-    "description": "Sprite, Coke, Diet Coke, Ginger Ale",
-    "price": "$5.00",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 49,
-    "name": "Saratoga Still Water",
-    "description": "",
-    "price": "$6.50",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 50,
-    "name": "Sparkling Water",
-    "description": "",
-    "price": "$5.00",
-    "image": null,
-    "category": "Beverages",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 51,
-    "name": "Brisket Grilled Cheese Quesadillas",
-    "description": "Braised BBQ sauce, melted cheddar",
-    "price": "$7.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 52,
-    "name": "Croissant Beignets",
-    "description": "3 deep fried beignets dusted with powdered sugar",
-    "price": "$4.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 53,
-    "name": "Crispy Chicken Sandwich",
-    "description": "Fried chicken breast on a toasted bun with chipotle aioli, arugula, sundried tomato, red onion marmalade, and B&B pickles",
-    "price": "$12.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 54,
-    "name": "Crispy Brussels Sprouts",
-    "description": "Flash-fried Brussels with lemon crema and honey",
-    "price": "$8.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 55,
-    "name": "Truffle Fries",
-    "description": "Parmesan cheese, white truffle oil, garlic aioli",
-    "price": "$5.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 56,
-    "name": "Chicken & Biscuits",
-    "description": "Fried chicken biscuits brushed with honey butter",
-    "price": "$7.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 57,
-    "name": "SideCar",
-    "description": "",
-    "price": "$10.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 58,
-    "name": "House Margarita",
-    "description": "",
-    "price": "$10.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 59,
-    "name": "Strawberry Lemon Drop",
-    "description": "",
-    "price": "$10.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  },
-  {
-    "id": 60,
-    "name": "House Red & White Wine",
-    "description": "",
-    "price": "$8.00",
-    "image": null,
-    "category": "Happy Hour",
-    "dishType": "",
-    "addOn": ""
-  }
+      "id": 48,
+      "name": "Mimosa(single glass)",
+      "description": "",
+      "price": "$12",
+      "image": null,
+      "category": "Cocktails & Wine",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 49,
+      "name": "Lavender Hibiscus Martini",
+      "description": "A smooth, floral-forward martini infused with aromatic lavender and vibrant hibiscus",
+      "price": "$21",
+      "image": null,
+      "category": "Cocktails & Wine",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 50,
+      "name": "Red Sangria",
+      "description": "A smooth, floral-forward martini infused with aromatic lavender and vibrant hibiscus",
+      "price": "$17",
+      "image": null,
+      "category": "Cocktails & Wine",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 51,
+      "name": "Croissant Beignets (5)",
+      "description": "Dusted with powdered sugar",
+      "price": "$8.00",
+      "image": null,
+      "category": "Quick Fix",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 52,
+      "name": "Hot Chocolate",
+      "description": "Available in small ($6) and large ($12)",
+      "price": "$6.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 53,
+      "name": "Hot Tea",
+      "description": "",
+      "price": "$3.50",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 54,
+      "name": "Coffee",
+      "description": "",
+      "price": "$3.50",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 55,
+      "name": "Cold Brew",
+      "description": "",
+      "price": "$6.50",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 56,
+      "name": "Grapefruit Juice",
+      "description": "",
+      "price": "$4.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 57,
+      "name": "Cranberry Juice",
+      "description": "",
+      "price": "$4.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 58,
+      "name": "Apple Juice",
+      "description": "",
+      "price": "$5.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 59,
+      "name": "Pineapple Juice",
+      "description": "",
+      "price": "$4.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 60,
+      "name": "Orange Juice",
+      "description": "",
+      "price": "$6.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 61,
+      "name": "Lemonade",
+      "description": "",
+      "price": "$5.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 62,
+      "name": "Soft Drinks",
+      "description": "Sprite, Coke, Diet Coke, Ginger Ale",
+      "price": "$5.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 63,
+      "name": "Saratoga Still Water",
+      "description": "",
+      "price": "$6.50",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 64,
+      "name": "Sparkling Water",
+      "description": "",
+      "price": "$5.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 65,
+      "name": "Brisket Grilled Cheese Quesadillas",
+      "description": "Braised BBQ sauce, melted cheddar",
+      "price": "$7.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 66,
+      "name": "Croissant Beignets",
+      "description": "3 deep fried beignets dusted with powdered sugar",
+      "price": "$4.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 67,
+      "name": "Crispy Chicken Sandwich",
+      "description": "Fried chicken breast on a toasted bun with chipotle aioli, arugula, sundried tomato, red onion marmalade, and B&B pickles",
+      "price": "$12.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 68,
+      "name": "Crispy Brussels Sprouts",
+      "description": "Flash-fried Brussels with lemon crema and honey",
+      "price": "$8.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 69,
+      "name": "Truffle Fries",
+      "description": "Parmesan cheese, white truffle oil, garlic aioli",
+      "price": "$5.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 70,
+      "name": "Chicken & Biscuits",
+      "description": "Fried chicken biscuits brushed with honey butter",
+      "price": "$7.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 71,
+      "name": "SideCar",
+      "description": "",
+      "price": "$10.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 72,
+      "name": "House Margarita",
+      "description": "",
+      "price": "$10.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 73,
+      "name": "Strawberry Lemon Drop",
+      "description": "",
+      "price": "$10.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 74,
+      "name": "House Red & White Wine",
+      "description": "",
+      "price": "$8.00",
+      "image": null,
+      "category": "Happy Hour",
+      "dishType": "",
+      "addOn": ""
+    }
 
-  
 ]
