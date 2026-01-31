@@ -739,6 +739,16 @@
       "category": "Happy Hour",
       "dishType": "",
       "addOn": ""
+    },
+    {
+      "id": 75,
+      "name": "Strawberry Shortcake French Toast",
+      "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble. (Half order available - $11.00) ",
+      "price": "$21.00",
+      "image": null,
+      "category": "Main Entrées",
+      "dishType": "",
+      "addOn": ""
     }
 
 ]
