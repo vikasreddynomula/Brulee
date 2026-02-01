@@ -743,12 +743,21 @@
     {
       "id": 75,
       "name": "Strawberry Shortcake French Toast",
-      "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble. (Half order available - $11.00) ",
+      "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble.",
       "price": "$21.00",
       "image": null,
       "category": "Main Entrées",
       "dishType": "",
       "addOn": ""
+    },
+    {
+      "id": 76,
+      "name": "Strawberry Shortcake French Toast(Half order)",
+      "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble. ",
+      "price": "$11.00",
+      "image": null,
+      "category": "Sides",
+      "dishType": "",
+      "addOn": ""
     }
-
 ]

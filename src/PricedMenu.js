@@ -93,6 +93,11 @@ const PricedMenu = () => {
           </div>
         ))}
       </div>
+      <div className="menu-disclaimer">
+      <h4 className="disclaimer-heading"><b>Disclaimer</b></h4>
+        <p>20% gratuity/service fee added to all checks</p>
+        <p>ALL LIQUOR SALES ARE FINAL!</p>
+      </div>
     </div>
   );
 };

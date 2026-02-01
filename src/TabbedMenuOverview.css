@@ -104,4 +104,19 @@
     color: #555;
     width: 90%;
   }
+
+  .menu-disclaimer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  .menu-disclaimer p {
+    margin: 6px 0;
+  }
+  
   
