@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "House Burger",
-    "description": "Chipotle aioli, cheddar, butter lettuce, heirloom tomato, red onion marmalade, B&B pickles.",
+    "description": "Chipotle aioli, cheddar cheese arugula, sun dried tomatoes, red onion marmalade, B&B pickles ",
     "price": "$22",
     "image": null,
     "category": "Handhelds",
@@ -112,7 +112,7 @@
   {
     "id": 12,
     "name": "Everything Vegan Burger",
-    "description": "Toasted potato bun, garlic aioli, butter lettuce, tomato, avocado spread, caramelized onion, provolone cheese",
+    "description": "Vegan Garlic Aioli , vegan cheddar cheese,arugula,sun dried tomatoes,avocado, red onion marmalade, B&B pickles ",
     "price": "$23",
     "image": "./images/brisketgrilledcheese.jpeg",
     "category": "Handhelds",

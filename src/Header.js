@@ -49,7 +49,7 @@ function Header() {
                 <button className="section" onClick={() => handleNavigation('catering')}>Catering</button>
                 <a className="section" href="/privateevents">Private Events</a>
                 <button className="section" onClick={() => handleNavigation('contactus')}>Contact</button>
-                <button className="section" onClick={() => handleNavigation('loyaltymembers')}>Loyalty members</button>
+                {/* <button className="section" onClick={() => handleNavigation('loyaltymembers')}>Loyalty members</button> */}
               </div>
             </div>
           )}
@@ -63,7 +63,7 @@ function Header() {
           <a className="section" href="#catering">Catering</a>
           <a className="section" href="/privateevents">Private Events</a>
           <a className="section" href="#contactus">Contact</a>
-          <a className="section" href="#loyaltymembers">Loyalty members</a>
+          {/* <a className="section" href="#loyaltymembers">Loyalty members</a> */}
         </div>
       )}
     </div>
