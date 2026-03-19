@@ -13,6 +13,7 @@ import Display from './Display';
 import Reservations from './Reservations';
 import PricedMenu from './PricedMenu';
 import PrivateEvents from'./PrivateEvents';
+import ContactUs from './ContactUs';
 
 const HomePage = () => (
   <>
@@ -42,6 +43,7 @@ const AppRoutes = () => {
         <Route path='/reserve' element={<Reservations/>} />
         <Route path='/fullMenu' element={<PricedMenu/>} />
         <Route path='/privateevents' element={<PrivateEvents/>}/>
+        <Route path='/contactus' element={<ContactUs/>}/>
       </Routes>
       <Footer />
     </div>
