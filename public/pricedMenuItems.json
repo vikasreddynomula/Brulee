@@ -67,12 +67,12 @@
     "image": null,
     "category": "Soups & Salads",
     "dishType": "NV",
-    "addOn": "Add Protein: Chicken $8 | Shrimp $10 | Salmon $12"
+    "addOn": ""
   },
   {
     "id": 8,
     "name": "Strawberry & Apple Salad",
-    "description": "Mixed greens, arugula, blue cheese, gala apples, strawberries, pickled red onion, cucumber, cherry tomatoes, candied walnuts, dried cranberries, strawberry balsamic vinaigrette",
+    "description": "Mixed greens, arugula, blue cheese, gala apples, strawberries, shredded carrots, pickled red onion, cucumber, cherry tomatoes, candied walnuts, dried cranberries, strawberry balsamic vinaigrette",
     "price": "$19",
     "image": null,
     "category": "Soups & Salads",
@@ -542,6 +542,66 @@
     },
     {
       "id": 55,
+      "name": "Bru’latte (assortment of flavors)",
+      "description": "",
+      "price": "$8.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 56,
+      "name": "Cappuccino",
+      "description": "",
+      "price": "$8.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 57,
+      "name": "Red Eye",
+      "description": "",
+      "price": "$8.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 58,
+      "name": "Espresso shot",
+      "description": "",
+      "price": "$2.50",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 59,
+      "name": "Americano",
+      "description": "",
+      "price": "$5.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 60,
+      "name": "Chai Tea Latte",
+      "description": "",
+      "price": "$8.00",
+      "image": null,
+      "category": "Beverages",
+      "dishType": "",
+      "addOn": ""
+    },
+    {
+      "id": 61,
       "name": "Cold Brew",
       "description": "",
       "price": "$6.50",
@@ -551,7 +611,7 @@
       "addOn": ""
     },
     {
-      "id": 56,
+      "id": 62,
       "name": "Grapefruit Juice",
       "description": "",
       "price": "$4.00",
@@ -561,7 +621,7 @@
       "addOn": ""
     },
     {
-      "id": 57,
+      "id": 63,
       "name": "Cranberry Juice",
       "description": "",
       "price": "$4.00",
@@ -571,7 +631,7 @@
       "addOn": ""
     },
     {
-      "id": 58,
+      "id": 64,
       "name": "Apple Juice",
       "description": "",
       "price": "$5.00",
@@ -581,7 +641,7 @@
       "addOn": ""
     },
     {
-      "id": 59,
+      "id": 65,
       "name": "Pineapple Juice",
       "description": "",
       "price": "$4.00",
@@ -591,7 +651,7 @@
       "addOn": ""
     },
     {
-      "id": 60,
+      "id": 66,
       "name": "Orange Juice",
       "description": "",
       "price": "$6.00",
@@ -601,7 +661,7 @@
       "addOn": ""
     },
     {
-      "id": 61,
+      "id": 67,
       "name": "Lemonade",
       "description": "",
       "price": "$5.00",
@@ -611,7 +671,7 @@
       "addOn": ""
     },
     {
-      "id": 62,
+      "id": 68,
       "name": "Soft Drinks",
       "description": "Sprite, Coke, Diet Coke, Ginger Ale",
       "price": "$5.00",
@@ -621,7 +681,7 @@
       "addOn": ""
     },
     {
-      "id": 63,
+      "id": 69,
       "name": "Saratoga Still Water",
       "description": "",
       "price": "$6.50",
@@ -631,7 +691,7 @@
       "addOn": ""
     },
     {
-      "id": 64,
+      "id": 70,
       "name": "Sparkling Water",
       "description": "",
       "price": "$5.00",
@@ -641,7 +701,7 @@
       "addOn": ""
     },
     {
-      "id": 65,
+      "id": 71,
       "name": "Brisket Grilled Cheese Quesadillas",
       "description": "Braised BBQ sauce, melted cheddar",
       "price": "$7.00",
@@ -651,7 +711,7 @@
       "addOn": ""
     },
     {
-      "id": 66,
+      "id": 72,
       "name": "Croissant Beignets",
       "description": "3 deep fried beignets dusted with powdered sugar",
       "price": "$4.00",
@@ -661,7 +721,7 @@
       "addOn": ""
     },
     {
-      "id": 67,
+      "id": 73,
       "name": "Crispy Chicken Sandwich",
       "description": "Fried chicken breast on a toasted bun with chipotle aioli, arugula, sundried tomato, red onion marmalade, and B&B pickles",
       "price": "$12.00",
@@ -671,7 +731,7 @@
       "addOn": ""
     },
     {
-      "id": 68,
+      "id": 74,
       "name": "Crispy Brussels Sprouts",
       "description": "Flash-fried Brussels with lemon crema and honey",
       "price": "$8.00",
@@ -681,7 +741,7 @@
       "addOn": ""
     },
     {
-      "id": 69,
+      "id": 75,
       "name": "Truffle Fries",
       "description": "Parmesan cheese, white truffle oil, garlic aioli",
       "price": "$5.00",
@@ -691,7 +751,7 @@
       "addOn": ""
     },
     {
-      "id": 70,
+      "id": 76,
       "name": "Chicken & Biscuits",
       "description": "Fried chicken biscuits brushed with honey butter",
       "price": "$7.00",
@@ -701,7 +761,7 @@
       "addOn": ""
     },
     {
-      "id": 71,
+      "id": 77,
       "name": "SideCar",
       "description": "",
       "price": "$10.00",
@@ -711,7 +771,7 @@
       "addOn": ""
     },
     {
-      "id": 72,
+      "id": 78,
       "name": "House Margarita",
       "description": "",
       "price": "$10.00",
@@ -721,7 +781,7 @@
       "addOn": ""
     },
     {
-      "id": 73,
+      "id": 79,
       "name": "Strawberry Lemon Drop",
       "description": "",
       "price": "$10.00",
@@ -731,7 +791,7 @@
       "addOn": ""
     },
     {
-      "id": 74,
+      "id": 80,
       "name": "House Red & White Wine",
       "description": "",
       "price": "$8.00",
@@ -741,7 +801,7 @@
       "addOn": ""
     },
     {
-      "id": 75,
+      "id": 81,
       "name": "Strawberry Shortcake French Toast",
       "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble.",
       "price": "$21.00",
@@ -751,7 +811,7 @@
       "addOn": ""
     },
     {
-      "id": 76,
+      "id": 82,
       "name": "Strawberry Shortcake French Toast(Half order)",
       "description": "Fresh strawberries, strawberry puree, vanilla cream sauce, shortcake crumble. ",
       "price": "$11.00",
