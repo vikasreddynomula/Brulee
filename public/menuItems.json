@@ -669,6 +669,16 @@
     "category": "Main Entrées",
     "dishType": "",
     "addOn": ""
+  },
+  {
+    "id": 68,
+    "name": "Breakfast Sandwich",
+    "description": "Croissant, choice of protein (chicken sausage, bacon, or veggie sausage), choice of eggs.",
+    "price": "$15.00",
+    "image": null,
+    "category": "Handhelds",
+    "dishType": "",
+    "addOn": ""
   }
 
   

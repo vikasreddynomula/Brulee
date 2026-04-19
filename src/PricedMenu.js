@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './TabbedMenuOverview.css';
 
 const PricedMenu = () => {
@@ -11,14 +11,14 @@ const PricedMenu = () => {
       .then(res => res.json())
       .then(data => setMenuItems(data));
   }, []);
-  
+
   useEffect(() => {
     if (menuItems.length > 0 && !activeTab) {
       const categories = [...new Set(menuItems.map(item => item.category))];
       setActiveTab(categories[0]);
     }
   }, [menuItems, activeTab]);
-  
+
 
   const categories = [...new Set(menuItems.map(item => item.category))];
   const filteredItems = menuItems.filter(item => item.category === activeTab);
@@ -74,27 +74,39 @@ const PricedMenu = () => {
           <img src={representativeImage} alt={activeTab} className="overview-image" loading="lazy" />
         </div>
       )}
-      {activeTab==="Happy Hour" && (<h2 style={{textAlign:"center",fontStyle:"bold",paddingTop:"20px"}}>Monday - Friday</h2>)}
-      {activeTab==="Happy Hour" && (<h3 style={{textAlign:"center",paddingBottom:"20px"}}>12.30 PM - 3.00 PM</h3>)}
-      {activeTab==="Happy Hour" && (<h3 style={{textAlign:"center",paddingBottom:"20px"}}>Bar Area Only</h3>)}
+      {activeTab === "Happy Hour" && (<h2 style={{ textAlign: "center", fontStyle: "bold", paddingTop: "20px" }}>Monday - Friday</h2>)}
+      {activeTab === "Happy Hour" && (<h3 style={{ textAlign: "center", paddingBottom: "20px" }}>12.30 PM - 3.00 PM</h3>)}
+      {activeTab === "Happy Hour" && (<h3 style={{ textAlign: "center", paddingBottom: "20px" }}>Bar Area Only</h3>)}
 
       <div className="overview-items">
         {filteredItems.map(item => (
           <div key={item.id} className="overview-text">
             <h3>
-                <span className="priceditem-name">{item.name} </span>
-                <span className="pricedMenu-price">{item.price}</span>
+              <span className="priceditem-name">{item.name} </span>
+              <span className="pricedMenu-price">{item.price}</span>
             </h3>
             <p>{item.description}</p>
-            <p style={{fontStyle:"italic"}}>{item.addOn}</p>
+            <p style={{ fontStyle: "italic" }}>{item.addOn}</p>
             <div className="tag-row">
               {renderTags(item.dishType)}
             </div>
           </div>
         ))}
       </div>
+
+      {["Main Entrées", "Handhelds"].includes(activeTab) && (
+        <div className="consumer-advisory">
+          <h4 className="advisory-heading"><b>Consumer Advisory</b></h4>
+          <p>
+            Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs
+            may increase risk of foodborne illness, especially if you have certain
+            medical conditions.
+          </p>
+        </div>
+      )}
+
       <div className="menu-disclaimer">
-      <h4 className="disclaimer-heading"><b>Disclaimer</b></h4>
+        <h4 className="disclaimer-heading"><b>Disclaimer</b></h4>
         <p>20% gratuity/service fee added to all checks</p>
         <p>ALL LIQUOR SALES ARE FINAL!</p>
       </div>

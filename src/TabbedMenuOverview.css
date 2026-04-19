@@ -119,4 +119,18 @@
     margin: 6px 0;
   }
   
+  .consumer-advisory {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #c9a96e;
+    border-radius: 8px;
+    background-color: #fdf6e9;
+    text-align: center;
+  }
+  
+  .advisory-heading {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
   
