@@ -6,6 +6,9 @@ const PricedMenu = () => {
   const [menuItems, setMenuItems] = useState([]);
   const [activeTab, setActiveTab] = useState();
 
+  // Categories to display (only these will show as tabs)
+  const allowedCategories = ['Cocktails & Wine', 'Beverages'];
+
   useEffect(() => {
     fetch('/pricedMenuItems.json')
       .then(res => res.json())
@@ -14,13 +17,15 @@ const PricedMenu = () => {
 
   useEffect(() => {
     if (menuItems.length > 0 && !activeTab) {
-      const categories = [...new Set(menuItems.map(item => item.category))];
+      const categories = [...new Set(menuItems.map(item => item.category))]
+        .filter(cat => allowedCategories.includes(cat));
       setActiveTab(categories[0]);
     }
   }, [menuItems, activeTab]);
 
 
-  const categories = [...new Set(menuItems.map(item => item.category))];
+  const categories = [...new Set(menuItems.map(item => item.category))]
+    .filter(cat => allowedCategories.includes(cat));
   const filteredItems = menuItems.filter(item => item.category === activeTab);
   const representativeImage = filteredItems[0]?.image || '';
 
@@ -74,9 +79,6 @@ const PricedMenu = () => {
           <img src={representativeImage} alt={activeTab} className="overview-image" loading="lazy" />
         </div>
       )}
-      {activeTab === "Happy Hour" && (<h2 style={{ textAlign: "center", fontStyle: "bold", paddingTop: "20px" }}>Monday - Friday</h2>)}
-      {activeTab === "Happy Hour" && (<h3 style={{ textAlign: "center", paddingBottom: "20px" }}>12.30 PM - 3.00 PM</h3>)}
-      {activeTab === "Happy Hour" && (<h3 style={{ textAlign: "center", paddingBottom: "20px" }}>Bar Area Only</h3>)}
 
       <div className="overview-items">
         {filteredItems.map(item => (
@@ -93,17 +95,6 @@ const PricedMenu = () => {
           </div>
         ))}
       </div>
-
-      {["Main Entrées", "Handhelds"].includes(activeTab) && (
-        <div className="consumer-advisory">
-          <h4 className="advisory-heading"><b>Consumer Advisory</b></h4>
-          <p>
-            Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs
-            may increase risk of foodborne illness, especially if you have certain
-            medical conditions.
-          </p>
-        </div>
-      )}
 
       <div className="menu-disclaimer">
         <h4 className="disclaimer-heading"><b>Disclaimer</b></h4>
