@@ -7,7 +7,6 @@ const PricedMenu = () => {
   const [activeTab, setActiveTab] = useState();
 
   // Categories to display (only these will show as tabs)
-  const allowedCategories = ['Cocktails & Wine', 'Beverages'];
 
   useEffect(() => {
     fetch('/pricedMenuItems.json')
@@ -18,14 +17,12 @@ const PricedMenu = () => {
   useEffect(() => {
     if (menuItems.length > 0 && !activeTab) {
       const categories = [...new Set(menuItems.map(item => item.category))]
-        .filter(cat => allowedCategories.includes(cat));
       setActiveTab(categories[0]);
     }
   }, [menuItems, activeTab]);
 
 
   const categories = [...new Set(menuItems.map(item => item.category))]
-    .filter(cat => allowedCategories.includes(cat));
   const filteredItems = menuItems.filter(item => item.category === activeTab);
   const representativeImage = filteredItems[0]?.image || '';
 
